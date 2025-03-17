@@ -67,13 +67,6 @@ This project demonstrates a complete data warehouse solution designed for analyt
 - SQL Server (2019+ recommended).  
 - Source CSV files (place in `/data` directory).  
 
-### Setup  
-1. **Restore Database**:  
-   ```bash
-   sqlcmd -S localhost -i setup/restore_database.sql
-   ```
-2. **Run ETL**: Execute scripts in `/etl/bronze.sql`, `/etl/silver.sql`, `/etl/gold.sql`.  
-
 ---
 
 ## Folder Structure  
